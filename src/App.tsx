@@ -17,7 +17,7 @@ const App = () => {
   const [clickedCard, setClickedCard] = React.useState<undefined | CardType>(undefined);
 
   React.useEffect(() => {
-    if(matchedPairs ===  cards.length / 2){
+    if (matchedPairs ===  cards.length / 2) {
       console.log('Game Won');
       setGameWon(true)
     }
