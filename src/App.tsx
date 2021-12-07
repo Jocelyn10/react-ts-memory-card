@@ -53,7 +53,7 @@ const App = () => {
   return (
     <div>
       <Grid>
-        { cards.map(card => (<Card key={card.id} card={card} callback={handleCardClick} /> )) }
+        { cards.map(card => (<Card key={card.id} card={card} callback={handleCardClick} />)) }
       </Grid>
     </div>
   );
